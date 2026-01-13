@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
-import CloseIcon from "@mui/icons-material/Close";
+// import CloseIcon from "@mui/icons-material/Close";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -106,6 +106,7 @@ const NavItem = ({ text, onClick }) => (
         color: "primary.main",
       },
     }}
+    variant="h6"
   >
     {text}
   </Typography>

@@ -1,6 +1,6 @@
 import { Box, Button, Container, Typography } from "@mui/material";
 import { motion } from "framer-motion";
-import heroImg from "../assets/hero-img.png";
+import heroImg from "../assets/hero-img.webp";
 
 const MotionBox = motion(Box);
 
