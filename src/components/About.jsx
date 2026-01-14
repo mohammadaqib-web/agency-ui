@@ -79,11 +79,11 @@ const About = () => {
                   strategy to execution.
                 </Typography>
 
-                <Typography color="text.secondary" sx={{ mb: 4 }}>
+                {/* <Typography color="text.secondary" sx={{ mb: 4 }}>
                   From website design and redesign to full-stack development,
                   our team delivers solutions that look great and perform even
                   better.
-                </Typography>
+                </Typography> */}
 
                 {/* <Button variant="contained">Read More</Button> */}
               </CardContent>
