@@ -1,6 +1,5 @@
 import { Box, Button, Container, Typography } from "@mui/material";
 import { motion } from "framer-motion";
-import heroImg from "../assets/hero-img.webp";
 
 const MotionBox = motion(Box);
 
@@ -16,17 +15,24 @@ const Hero = () => {
     <Box
       sx={{
         minHeight: "100dvh",
+        position: "relative",
+        overflow: "hidden",
         display: "flex",
         alignItems: "center",
-        // backgroundImage: `url(${heroImg})`,
-        // backgroundSize: "cover",
-        // backgroundPosition: "center",
-        // backgroundRepeat: "no-repeat",
-        overflow: "hidden",
         mt: { xs: 4, md: 0 },
       }}
     >
-      <Container maxWidth="lg">
+      {/* RIPPLE BACKGROUND */}
+      <Box className="ripple-background">
+        <div className="circle xxlarge shade1"></div>
+        <div className="circle xlarge shade2"></div>
+        <div className="circle large shade3"></div>
+        <div className="circle medium shade4"></div>
+        <div className="circle small shade5"></div>
+      </Box>
+
+      {/* CONTENT */}
+      <Container maxWidth="lg" sx={{ position: "relative", zIndex: 2 }}>
         <MotionBox
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -58,9 +64,6 @@ const Hero = () => {
             >
               Get Started
             </Button>
-            {/* <Button size="large" variant="outlined" sx={{ px: 4, py: 1.5 }}>
-              View Work
-            </Button> */}
           </Box>
         </MotionBox>
       </Container>

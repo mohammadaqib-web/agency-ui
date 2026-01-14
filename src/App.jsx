@@ -8,6 +8,7 @@ import Services from "./components/Service";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Testimonials from "./components/Testimonials";
+import HowWeWork from "./components/HowWeWork";
 
 export default function App() {
   return (
@@ -19,6 +20,9 @@ export default function App() {
       <About />
       <Stats />
       <Projects />
+      <Box id="howwework">
+        <HowWeWork />
+      </Box>
       <Box id="services">
         <Services />
       </Box>

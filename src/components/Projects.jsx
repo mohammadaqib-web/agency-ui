@@ -12,10 +12,13 @@ import { motion } from "framer-motion";
 import webDev from "../assets/carely.png";
 import marketingImg from "../assets/charak.png";
 import uiuxImg from "../assets/techuz.png";
+import qamarImg from "../assets/qamar-enterprises.png";
+import skemaImg from "../assets/skema.png";
+import logisticsImg from "../assets/logistics.png";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Service Platform",
     category: "Web Development",
     image: webDev,
   },
@@ -28,6 +31,21 @@ const projects = [
     title: "Organic Traffic on Website",
     category: "Digital Marketing",
     image: marketingImg,
+  },
+  {
+    title: "One Stop Furniture Solution",
+    category: "Web Development",
+    image: skemaImg,
+  },
+  {
+    title: "Manpower Solution",
+    category: "Web Development",
+    image: qamarImg,
+  },
+  {
+    title: "Logistics Solution",
+    category: "Web Development",
+    image: logisticsImg,
   },
 ];
 

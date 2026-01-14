@@ -12,6 +12,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
+import LOGO from "../assets/logo.jpeg";
 // import CloseIcon from "@mui/icons-material/Close";
 
 export default function Navbar() {
@@ -28,28 +29,54 @@ export default function Navbar() {
   return (
     <>
       <AppBar elevation={0} position="fixed" sx={{ background: "white" }}>
-        <Container maxWidth="lg">
+        <Container
+          maxWidth=""
+          // sx={{ display: "flex", justifyContent: "" }}
+        >
           <Toolbar disableGutters>
             {/* Logo */}
+            <Box
+              component="img"
+              src={LOGO}
+              alt="Logo"
+              sx={{
+                width: {
+                  xs: 70,
+                  md: 80,
+                  lg: 100,
+                },
+                ml: { xs: 0, md: 3 },
+              }}
+            />
+
             <Typography
               variant="h4"
-              sx={{ flexGrow: 1, color: "black", fontWeight: 700 }}
-            >
-              codnexa
-            </Typography>
+              sx={{
+                flexGrow: 1,
+                color: "black",
+                fontWeight: 700,
+                fontFamily: "sans-serif",
+              }}
+            ></Typography>
 
             {/* Desktop Menu */}
             <Box
               sx={{
                 display: { xs: "none", md: "flex" },
                 gap: 4,
+                mr: 5,
               }}
             >
               <NavItem text="Home" onClick={() => handleScroll("home")} />
               <NavItem
+                text="How we work"
+                onClick={() => handleScroll("howwework")}
+              />
+              <NavItem
                 text="Services"
                 onClick={() => handleScroll("services")}
               />
+
               <NavItem text="Contact" onClick={() => handleScroll("contact")} />
             </Box>
 
@@ -74,12 +101,19 @@ export default function Navbar() {
         <Box sx={{ width: 190, mt: 1, pr: 1 }}>
           <Typography
             variant="h4"
-            sx={{ color: "black", fontWeight: 700, pl: 1.5, mt: 2 }}
+            sx={{
+              color: "black",
+              fontWeight: 700,
+              pl: 1.5,
+              mt: 2,
+              fontFamily: "sans-serif",
+            }}
           >
-            codnexa
+            {/* Codnexa */}
           </Typography>
+          <img src={LOGO} width={"100px"} style={{ marginBottom: "-15px" }} />
           <List>
-            {["Home", "Services", "Contact"].map((text) => (
+            {["Home", "How we work", "Services", "Contact"].map((text) => (
               <ListItem
                 button
                 key={text}

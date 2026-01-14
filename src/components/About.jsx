@@ -8,13 +8,14 @@ import {
   Typography,
 } from "@mui/material";
 import { motion } from "framer-motion";
+import aboutIMG from "../assets/about.jpeg";
 
 const MotionCard = motion(Card);
 
 const About = () => {
   return (
     <Box sx={{ py: { xs: 5, md: 10 }, mt: { xs: 5, md: 0 } }}>
-      <Container maxWidth="lg">
+      <Container maxWidth="">
         <Grid container spacing={6} alignItems="center">
           {/* Image */}
           <Grid item xs={12} md={6}>
@@ -25,7 +26,8 @@ const About = () => {
               sx={{ borderRadius: 4, overflow: "hidden" }}
             >
               <img
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+                // src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+                src={aboutIMG}
                 alt="Agency Team"
                 style={{
                   width: "100%",
@@ -51,15 +53,30 @@ const About = () => {
                 </Typography>
 
                 <Typography variant="h4" fontWeight={700} sx={{ my: 2 }}>
-                  The Best Digital Solution
-                  <br />
-                  For Your Business
+                  Let’s build something <br />
+                  that grows your business
                 </Typography>
 
                 <Typography color="text.secondary" sx={{ mb: 3 }}>
-                  We help startups and businesses build scalable digital
+                  {/* We help startups and businesses build scalable digital
                   products through modern web & mobile applications, SEO-driven
-                  growth strategies, and performance-focused digital marketing.
+                  growth strategies, and performance-focused digital marketing. */}
+                  Codnexa helps businesses grow through high-performance
+                  websites, software, and digital solutions. We start by
+                  understanding your business goals and then build result-driven
+                  digital products that truly work. Along with website and app
+                  development, we offer digital marketing services, lead
+                  generation campaigns, and performance-driven ad runs to help
+                  you reach the right audience and maximize ROI. We build fast,
+                  responsive, and SEO-optimized websites designed to convert
+                  visitors into customers. <br/><br/>Our performance marketing strategies
+                  are data-driven, focused on quality leads, higher conversions,
+                  and measurable ROI. Our solutions are scalable, secure, and
+                  tailored to your business needs. With a focus on quality,
+                  performance, and results, Codnexa turns ideas into impact. We
+                  work closely with our clients to ensure transparency, speed,
+                  and measurable outcomes. Your growth is our priority, from
+                  strategy to execution.
                 </Typography>
 
                 <Typography color="text.secondary" sx={{ mb: 4 }}>

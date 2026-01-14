@@ -42,7 +42,7 @@ export default function Services() {
             SERVICES
           </Typography>
           <Typography variant="h4" fontWeight={700} mt={1}>
-            How We Work
+            What We Do
           </Typography>
           <Typography color="text.secondary" mt={1}>
             We deliver end-to-end digital solutions for modern businesses.
