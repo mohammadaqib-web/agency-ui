@@ -14,7 +14,7 @@ const testimonials = [
     name: "Rahul Sharma",
     // role: "Founder, StartupX",
     feedback:
-      "CodNexa delivered exactly what we needed. The website performance and UI exceeded our expectations.",
+      "Codnexa delivered exactly what we needed. The website performance and UI exceeded our expectations.",
   },
   {
     name: "Ananya Verma",

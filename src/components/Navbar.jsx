@@ -35,7 +35,7 @@ export default function Navbar() {
               variant="h4"
               sx={{ flexGrow: 1, color: "black", fontWeight: 700 }}
             >
-              CodNexa
+              codnexa
             </Typography>
 
             {/* Desktop Menu */}
@@ -76,7 +76,7 @@ export default function Navbar() {
             variant="h4"
             sx={{ color: "black", fontWeight: 700, pl: 1.5, mt: 2 }}
           >
-            CodNexa
+            codnexa
           </Typography>
           <List>
             {["Home", "Services", "Contact"].map((text) => (
