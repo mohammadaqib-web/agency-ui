@@ -9,10 +9,12 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Testimonials from "./components/Testimonials";
 import HowWeWork from "./components/HowWeWork";
+import FloatingWhatsApp from "./components/WALogo";
 
 export default function App() {
   return (
     <Box>
+      <FloatingWhatsApp />
       <Navbar />
       <Box id="home">
         <Hero />
