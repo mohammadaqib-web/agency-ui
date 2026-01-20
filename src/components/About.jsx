@@ -69,14 +69,16 @@ const About = () => {
                   generation campaigns, and performance-driven ad runs to help
                   you reach the right audience and maximize ROI. We build fast,
                   responsive, and SEO-optimized websites designed to convert
-                  visitors into customers. <br/><br/>Our performance marketing strategies
-                  are data-driven, focused on quality leads, higher conversions,
-                  and measurable ROI. Our solutions are scalable, secure, and
-                  tailored to your business needs. With a focus on quality,
-                  performance, and results, Codnexa turns ideas into impact. We
-                  work closely with our clients to ensure transparency, speed,
-                  and measurable outcomes. Your growth is our priority, from
-                  strategy to execution.
+                  visitors into customers. <br />
+                  <br />
+                  Our performance marketing strategies are data-driven, focused
+                  on quality leads, higher conversions, and measurable ROI. Our
+                  solutions are scalable, secure, and tailored to your business
+                  needs. With a focus on quality, performance, and results,
+                  Codnexa turns ideas into impact. We work closely with our
+                  clients to ensure transparency, speed, and measurable
+                  outcomes. Your growth is our priority, from strategy to
+                  execution.
                 </Typography>
 
                 {/* <Typography color="text.secondary" sx={{ mb: 4 }}>

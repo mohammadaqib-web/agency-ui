@@ -9,16 +9,16 @@ import {
   Button,
 } from "@mui/material";
 import { motion } from "framer-motion";
-import webDev from "../assets/carely.png";
+import webDev from "../assets/sundown.png";
 import marketingImg from "../assets/charak.png";
 import uiuxImg from "../assets/techuz.png";
-import qamarImg from "../assets/qamar-enterprises.png";
+import qamarImg from "../assets/aavaran.png";
 import skemaImg from "../assets/skema.png";
 import logisticsImg from "../assets/logistics.png";
 
 const projects = [
   {
-    title: "Service Platform",
+    title: "Portfolio Website",
     category: "Web Development",
     image: webDev,
   },
@@ -38,7 +38,7 @@ const projects = [
     image: skemaImg,
   },
   {
-    title: "Manpower Solution",
+    title: "E-commerce",
     category: "Web Development",
     image: qamarImg,
   },
