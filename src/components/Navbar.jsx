@@ -117,7 +117,9 @@ export default function Navbar() {
               <ListItem
                 button
                 key={text}
-                onClick={() => handleScroll(text.toLowerCase())}
+                onClick={() =>
+                  handleScroll(text.toLowerCase().replace(/\s+/g, ""))
+                }
               >
                 <ListItemText primary={text} />
               </ListItem>
