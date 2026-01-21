@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Testimonials from "./components/Testimonials";
 import HowWeWork from "./components/HowWeWork";
 import FloatingWhatsApp from "./components/WALogo";
+import Certifications from "./components/Certifications";
 
 export default function App() {
   return (
@@ -24,6 +25,9 @@ export default function App() {
       <Projects />
       <Box id="howwework">
         <HowWeWork />
+      </Box>
+      <Box id="certifications">
+        <Certifications />
       </Box>
       <Box id="services">
         <Services />
