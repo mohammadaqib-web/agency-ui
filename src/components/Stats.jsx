@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import Counter from "./Counter.jsx";
 
 const stats = [
-  { value: 10, suffix: "+", label: "Happy Clients" },
+  { value: 15, suffix: "+", label: "Happy Clients" },
   { value: 100, suffix: "%", label: "Successful Projects" },
-  { value: 5, suffix: ".00", label: "Average Rating" },
+  { value: 4, suffix: ".9", label: "Average Rating" },
 ];
 
 export default function Stats() {
