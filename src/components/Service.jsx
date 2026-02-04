@@ -15,7 +15,7 @@ const services = [
   {
     icon: <CodeIcon fontSize="large" />,
     title: "Development",
-    price: "Starting at ₹2,999",
+    price: "Starting at ₹4,999",
     desc: "High-performance web & mobile applications using modern technologies.",
   },
   {
@@ -27,7 +27,7 @@ const services = [
   {
     icon: <TrendingUpIcon fontSize="large" />,
     title: "Marketing",
-    price: "Starting at ₹1,499/month",
+    price: "Starting at ₹2,999/month",
     desc: "SEO & digital marketing strategies to grow your business organically.",
   },
 ];
